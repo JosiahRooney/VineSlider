@@ -6,6 +6,14 @@ Dependencies: None
 
 Demo: https://josiahrooney.github.io/VineSlider/demo
 
+## Installation
+
+To install VineSlider, include the stylesheet in your `<head>` and script file just before the closing `</body>` tag of your HTML document.
+
+**Stylesheet**: `/css/vineslider.css`
+
+**Script**: `vineslider.js`
+
 ## Instantation
 
 To instantiate VineSlider, you must pass in an object of options. The minimum requirement is the container of the slideshow.
