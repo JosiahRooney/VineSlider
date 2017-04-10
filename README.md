@@ -2,7 +2,9 @@
 
 Author: Josiah Rooney  
 Company: Kreck Design  
-Dependencies: None  
+Dependencies: None
+
+Demo: https://josiahrooney.github.io/VineSlider/demo
 
 ## Instantation
 
