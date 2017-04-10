@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>VineSlider Demo</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="css/vineslider.css">
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+	
+		body {
+			margin: 0;
+		}
+
+		.container {
+			max-width: 1000px;
+			margin: auto;
+			padding: 0 20px;
+		}
+
+		.slideshow {
+			max-width: 800px;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+
+		<h3>Slideshow Demo</h3>
+
+		<div class="slideshow">
+			
+			<ul>
+
+				<li>
+					<img src="img/slide01.jpg" alt="">
+				</li>
+				<li>
+					<img src="img/slide02.jpg" alt="">
+				</li>
+				<li>
+					<img src="img/slide03.jpg" alt="">
+				</li>
+				<li>
+					<img src="img/slide04.jpg" alt="">
+				</li>
+
+			</ul>
+
+		</div>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ipsum, voluptates facere repudiandae earum alias dignissimos eum vel ad odit sapiente. Quis atque unde voluptatum quam tempora harum dolore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ipsum, voluptates facere repudiandae earum alias dignissimos eum vel ad odit sapiente. Quis atque unde voluptatum quam tempora harum dolore velit.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ipsum, voluptates facere repudiandae earum alias dignissimos eum vel ad odit sapiente. Quis atque unde voluptatum quam tempora harum dolore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ipsum, voluptates facere repudiandae earum alias dignissimos eum vel ad odit sapiente. Quis atque unde voluptatum quam tempora harum dolore velit.</p>
+
+	</div>
+
+	<script src="vineslider.js"></script>
+
+	<script>
+
+		let args = {
+			container: ".slideshow",
+			list: "ul",
+			slide: "li",
+			speed: 10000
+		}
+		
+		let vineslider = new VineSlider(args);
+
+		vineslider.init();
+
+	</script>
+
+</body>
+</html>
